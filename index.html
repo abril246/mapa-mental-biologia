@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Mental - Biología</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .map {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .node {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+      width: 200px;
+    }
+
+    .node img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="map">
+    <!-- Nodo Ciencia -->
+    <div class="node">
+      <img src="https://example.com/ciencia.png" alt="Ciencia">
+      <h3>Qué es la Ciencia</h3>
+      <p>Conjunto de conocimientos sobre el mundo natural y físico obtenidos mediante el método científico.</p>
+    </div>
+
+    <!-- Nodo Método Científico -->
+    <div class="node">
+      <img src="https://example.com/metodo-cientifico.png" alt="Método Científico">
+      <h3>Qué es el Método Científico</h3>
+      <p>Proceso sistemático para formular y responder preguntas mediante observación, experimentación y análisis.</p>
+    </div>
+
+    <!-- Nodo Biología -->
+    <div class="node">
+      <img src="https://example.com/biologia.png" alt="Biología">
+      <h3>Qué es la Biología</h3>
+      <p>La ciencia que estudia los seres vivos, su estructura, funciones, desarrollo y relaciones.</p>
+    </div>
+
+    <!-- Nodo Hitos Históricos -->
+    <div class="node">
+      <img src="https://example.com/hitos.png" alt="Hitos Históricos">
+      <h3>Hitos de la Biología</h3>
+      <p>Avances como la teoría celular, evolución de Darwin, y descubrimientos en genética.</p>
+    </div>
+
+    <!-- Nodo Divisiones de la Biología -->
+    <div class="node">
+      <img src="https://example.com/divisiones.png" alt="Divisiones de la Biología">
+      <h3>Divisiones de la Biología</h3>
+      <p>Ramas como la zoología, botánica, microbiología, genética, ecología, entre otras.</p>
+    </div>
+
+    <!-- Nodo Ciencias Relacionadas -->
+    <div class="node">
+      <img src="https://example.com/ciencias-relacionadas.png" alt="Ciencias Relacionadas">
+      <h3>Ciencias Relacionadas</h3>
+      <p>Disciplinas como la química, física, medicina, geología y antropología.</p>
+    </div>
+  </div>
+</body>
+</html>
